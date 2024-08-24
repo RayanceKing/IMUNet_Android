@@ -21,6 +21,12 @@ android {
         }
     }
 
+    // 添加这部分来启用 Java 8 支持
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
     aaptOptions {
         noCompress "tflite"
         noCompress "lite"
