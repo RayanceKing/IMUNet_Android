@@ -41,8 +41,8 @@ dependencies {
     implementation 'org.rajawali3d:rajawali:1.0.325@aar'
     
     // Update TensorFlow Lite dependencies to a stable release version
-    implementation 'org.tensorflow:tensorflow-lite:1.11.0'
-    implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:1.11.0'
+    implementation 'org.tensorflow:tensorflow-lite:2.11.0'
+    implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:2.11.0'
 
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
