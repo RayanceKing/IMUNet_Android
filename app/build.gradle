@@ -39,9 +39,10 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:11.8.0'
     implementation 'com.google.ar:core:1.22.0'
     implementation 'org.rajawali3d:rajawali:1.0.325@aar'
-    implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
-    // This dependency adds the necessary TF op support.
-    implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:0.0.0-nightly'
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    
+    // Update TensorFlow Lite dependencies to a stable release version
+    implementation 'org.tensorflow:tensorflow-lite:2.11.0'
+    implementation 'org.tensorflow:tensorflow-lite-select-tf-ops:2.11.0'
 
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
